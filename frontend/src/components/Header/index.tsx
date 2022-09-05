@@ -3,21 +3,19 @@ import "./styles.css";
 
 function Header() {
   return (
-    <>
-      <header>
-        <div className="dsmeta-logo-container">
-          <img src={logo} alt="DSMeta" />
-          <h1>DSMeta</h1>
-          <p>
-            Desenvolvido por
-            <a href="https://github.com/CelsoMothe" target="_blank">
-              {" "}
-              github.com/CelsoMothe
-            </a>
-          </p>
-        </div>
-      </header>
-    </>
+    <header>
+      <div className="dsmeta-logo-container">
+        <img src={logo} alt="DSMeta" />
+        <h1>DSMeta</h1>
+        <p>
+          Desenvolvido por
+          <a href="https://github.com/CelsoMothe" target="_blank">
+            {" "}
+            github.com/CelsoMothe
+          </a>
+        </p>
+      </div>
+    </header>
   );
 }
 
